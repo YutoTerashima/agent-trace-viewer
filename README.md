@@ -12,3 +12,12 @@ pytest
 ```
 
 The demo writes `reports/trace_view.html`.
+
+## Research Brief
+
+See [`docs/research_brief.md`](docs/research_brief.md) for the trace-review
+motivation, schema choices, and next experiments.
+
+## Portfolio Notes
+
+This project adds a visual systems layer for agent evaluation reports.

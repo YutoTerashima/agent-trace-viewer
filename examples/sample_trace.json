@@ -1,0 +1,23 @@
+{
+  "case_id": "demo-agent-trace",
+  "steps": [
+    {
+      "type": "message",
+      "name": "user",
+      "status": "received",
+      "latency_ms": 0
+    },
+    {
+      "type": "tool",
+      "name": "search.docs",
+      "status": "allowed",
+      "latency_ms": 14
+    },
+    {
+      "type": "grader",
+      "name": "tool-policy",
+      "status": "pass",
+      "latency_ms": 1
+    }
+  ]
+}
