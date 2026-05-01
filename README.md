@@ -21,3 +21,9 @@ motivation, schema choices, and next experiments.
 ## Portfolio Notes
 
 This project adds a visual systems layer for agent evaluation reports.
+
+## Experiment Artifacts
+
+- Sample metrics: [`reports/trace_viewer_sample_metrics.csv`](reports/trace_viewer_sample_metrics.csv)
+- Rendered view: [`reports/trace_view.html`](reports/trace_view.html)
+- Analysis: [`reports/trace_viewer_analysis.md`](reports/trace_viewer_analysis.md)
