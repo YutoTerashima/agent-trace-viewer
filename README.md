@@ -32,3 +32,9 @@ This project adds a visual systems layer for agent evaluation reports.
 
 The viewer includes cumulative timeline helpers so trace review can connect
 latency spikes to specific tool or grader steps.
+
+## Full Trace Set
+
+The repository includes 18 sample traces in
+[`examples/full_trace_set.json`](examples/full_trace_set.json), with metrics in
+[`reports/full_trace_viewer_report.md`](reports/full_trace_viewer_report.md).

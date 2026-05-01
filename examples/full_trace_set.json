@@ -1,0 +1,416 @@
+[
+  {
+    "case_id": "TR-001",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 12
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-002",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 13
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-003",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 14
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-004",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 15
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-005",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 16
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-006",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 17
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-007",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 18
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-008",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 19
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-009",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 20
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-010",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 21
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-011",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 22
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-012",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 23
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-013",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 24
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-014",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 25
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-015",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 26
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-016",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "network.post",
+        "status": "denied",
+        "latency_ms": 27
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "fail",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-017",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 28
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  },
+  {
+    "case_id": "TR-018",
+    "steps": [
+      {
+        "type": "message",
+        "name": "user",
+        "status": "received",
+        "latency_ms": 0
+      },
+      {
+        "type": "tool",
+        "name": "search.docs",
+        "status": "allowed",
+        "latency_ms": 29
+      },
+      {
+        "type": "grader",
+        "name": "tool-policy",
+        "status": "pass",
+        "latency_ms": 1
+      }
+    ]
+  }
+]
