@@ -42,3 +42,8 @@ The repository includes 18 sample traces in
 ## CSV Export
 
 Trace summaries can be exported to CSV for spreadsheet review or benchmark reports.
+## Real Public Dataset Experiment
+
+`datasets/external/real_prompt_injection_traces.json` converts real rows from
+[S-Labs/prompt-injection-dataset](https://huggingface.co/datasets/S-Labs/prompt-injection-dataset)
+into agent-style trace events, giving the trace viewer realistic security-review examples.
