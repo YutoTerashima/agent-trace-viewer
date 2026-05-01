@@ -38,3 +38,7 @@ latency spikes to specific tool or grader steps.
 The repository includes 18 sample traces in
 [`examples/full_trace_set.json`](examples/full_trace_set.json), with metrics in
 [`reports/full_trace_viewer_report.md`](reports/full_trace_viewer_report.md).
+
+## CSV Export
+
+Trace summaries can be exported to CSV for spreadsheet review or benchmark reports.
