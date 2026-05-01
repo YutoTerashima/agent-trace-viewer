@@ -1,0 +1,51 @@
+{
+  "title": "Agent Trace Viewer V2",
+  "kind": "trace",
+  "dataset_path": "data/raw/raw_dataset.jsonl",
+  "profile": "full",
+  "generated_at": "2026-05-02 08:11:34",
+  "git_commit": "1289ba7",
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "results": [
+    {
+      "policy_decision": "allow",
+      "count": 5687,
+      "risk_score": 0.15860910849305435,
+      "latency_ms": 115.49674696676631
+    },
+    {
+      "policy_decision": "deny",
+      "count": 1209,
+      "risk_score": 0.7940942928039703,
+      "latency_ms": 113.73779983457403
+    },
+    {
+      "policy_decision": "review",
+      "count": 3104,
+      "risk_score": 0.5997873711340206,
+      "latency_ms": 113.5360824742268
+    },
+    {
+      "experiment_id": "dashboard_export",
+      "traces_rendered": 1500,
+      "rows": 10000
+    }
+  ],
+  "artifacts": [
+    "reports\\results\\v2_trace_summary.csv",
+    "reports\\results\\v2_annotated_traces.json",
+    "reports\\v2_trace_dashboard.html",
+    "reports\\figures\\v2_latency_by_decision.png",
+    "reports\\figures\\v2_policy_decisions.png",
+    "reports\\figures\\v2_risk_distribution.png"
+  ],
+  "discussion": "Trace observability is useful only when the viewer carries model confidence, policy decisions, and failure reasons into the same timeline. V2 creates thousands of annotated traces and measures dashboard/filter behavior.",
+  "total_runtime_seconds": 0.656
+}

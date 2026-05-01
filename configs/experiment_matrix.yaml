@@ -1,0 +1,33 @@
+{
+  "kind": "trace",
+  "title": "Agent Trace Viewer V2",
+  "report": "agent_trace_viewer_v2_research_report.md",
+  "dataset_path": "data/raw/raw_dataset.jsonl",
+  "max_rows_full": 10000,
+  "max_rows_smoke": 800,
+  "experiments": [
+    {
+      "id": "trace_risk_scoring",
+      "method": "risk"
+    },
+    {
+      "id": "policy_timeline_latency",
+      "method": "latency"
+    },
+    {
+      "id": "filter_benchmark",
+      "method": "filter"
+    },
+    {
+      "id": "dashboard_export",
+      "method": "dashboard"
+    }
+  ],
+  "ablations": [
+    "confidence_threshold",
+    "tool_risk",
+    "latency_bucket",
+    "policy_decision"
+  ],
+  "discussion": "Trace observability is useful only when the viewer carries model confidence, policy decisions, and failure reasons into the same timeline. V2 creates thousands of annotated traces and measures dashboard/filter behavior."
+}
