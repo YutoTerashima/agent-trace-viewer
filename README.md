@@ -27,3 +27,8 @@ This project adds a visual systems layer for agent evaluation reports.
 - Sample metrics: [`reports/trace_viewer_sample_metrics.csv`](reports/trace_viewer_sample_metrics.csv)
 - Rendered view: [`reports/trace_view.html`](reports/trace_view.html)
 - Analysis: [`reports/trace_viewer_analysis.md`](reports/trace_viewer_analysis.md)
+
+## Timeline Analysis
+
+The viewer includes cumulative timeline helpers so trace review can connect
+latency spikes to specific tool or grader steps.
