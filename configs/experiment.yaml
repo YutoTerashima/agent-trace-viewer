@@ -1,0 +1,9 @@
+{
+  "kind": "trace",
+  "dataset": "S-Labs/prompt-injection-dataset",
+  "config": "default",
+  "split": "train",
+  "report": "agent_trace_observability_report.md",
+  "title": "Agent Trace Observability Report",
+  "description": "Trace dashboard generated from real prompt-injection classifier outputs."
+}

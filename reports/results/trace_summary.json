@@ -1,0 +1,15 @@
+{
+  "device": {
+    "requested_device": "cuda",
+    "actual_device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "torch_version": "2.10.0+cu128",
+    "cuda_runtime": "12.8"
+  },
+  "traces": 384,
+  "policy_counts": {
+    "allow": 323,
+    "review": 61
+  }
+}
