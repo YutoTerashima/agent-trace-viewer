@@ -35,10 +35,10 @@ conda run -n Transformers python scripts/make_report.py
     "torch_version": "2.10.0+cu128",
     "cuda_runtime": "12.8"
   },
-  "traces": 384,
+  "traces": 5000,
   "policy_counts": {
-    "allow": 323,
-    "review": 61
+    "allow": 4196,
+    "review": 804
   }
 }
 ```
