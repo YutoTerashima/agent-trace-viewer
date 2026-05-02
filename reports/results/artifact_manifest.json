@@ -1,0 +1,448 @@
+{
+  "repo": "agent-trace-viewer",
+  "generated_at_utc": "2026-05-02T07:25:23.543779+00:00",
+  "git_commit": "0d8c5d3",
+  "artifacts": [
+    {
+      "path": "configs/experiment.yaml",
+      "kind": "configuration",
+      "size_bytes": 311,
+      "sha256": "4afd048320ccf70193172017810a3761142d3a55c9f06ab96e1b1147da97ad1b",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "configs/experiment_matrix.yaml",
+      "kind": "configuration",
+      "size_bytes": 910,
+      "sha256": "ad40a705798b78779ff8f7a2a7ecbbf5bd95d9809551bfc68b3b4b03f992d3d3",
+      "review_use": "experiment or model configuration"
+    },
+    {
+      "path": "reports/figures/top_tier_review_scores.png",
+      "kind": "figure",
+      "size_bytes": 45564,
+      "sha256": "22631379a435fd1688abdb3b65dd362277ac380e00e22d2da1d0763b5833e546",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/trace_policy_decisions.png",
+      "kind": "figure",
+      "size_bytes": 26648,
+      "sha256": "b49b08d0c2000312aabdb81d7685e56253554ddc779dd9b996427b38720e492a",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_latency_by_decision.png",
+      "kind": "figure",
+      "size_bytes": 38988,
+      "sha256": "1c126c3844d3f0f76c75f9d608e02075aaeb563c622a5425f3a85b512bb959e0",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_policy_decisions.png",
+      "kind": "figure",
+      "size_bytes": 36819,
+      "sha256": "fa6d4d332dc33edcda79db567ccec9e401259e12e5dd1a512f8040ec891dd57e",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/figures/v2_risk_distribution.png",
+      "kind": "figure",
+      "size_bytes": 43120,
+      "sha256": "3b9552e3bb5db0e2a5fdabf769d9f59e0b70b184aad186109ad1342d8f6f87c0",
+      "review_use": "visual result analysis"
+    },
+    {
+      "path": "reports/full_trace_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 411,
+      "sha256": "ea79453cfb49c379db0c186b1855084cb52fdbd4218253006e6ca0b56516a666",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/results/claim_evidence_matrix.csv",
+      "kind": "metric_table",
+      "size_bytes": 1483,
+      "sha256": "31542362fb1b1e57d700f1c5fe0ac74ecbc07b3990de04a9926d51ac7c32e385",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/trace_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 145589,
+      "sha256": "3d95a4fc395fb03a464a706a4cb539ea7aee3981e816baabd23e7ab0d95114d4",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_trace_summary.csv",
+      "kind": "metric_table",
+      "size_bytes": 195,
+      "sha256": "f5a52857d536b07433ec787bf401f9b3c8ade3874b6f38c8f12f5de8a44693da",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/trace_viewer_sample_metrics.csv",
+      "kind": "metric_table",
+      "size_bytes": 117,
+      "sha256": "2a8909f14f45dc489659819f8ac886f11bda907e62228df92ebb8114bdb79e14",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "pyproject.toml",
+      "kind": "other",
+      "size_bytes": 419,
+      "sha256": "eb397af86165bf16adbd9126d6b47985b000a93b01407770941ce10547980ed2",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/real_trace_dataset_preview.html",
+      "kind": "other",
+      "size_bytes": 2623,
+      "sha256": "5f938c2f6fc70f4ede438acbdc2de0129fc376f9e0936df5eb67cde6dfe427e0",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/trace_dashboard.html",
+      "kind": "other",
+      "size_bytes": 13371,
+      "sha256": "b29e322db527f377adc9937aa06e76a11997857864945581c17874c1e4ff7024",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/trace_view.html",
+      "kind": "other",
+      "size_bytes": 547,
+      "sha256": "a433b00d78e894002e86f60effdfc74af91e429abfe1c9d6b255bdc3fb09ccc2",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/v2_trace_dashboard.html",
+      "kind": "other",
+      "size_bytes": 204041,
+      "sha256": "9b7b382f5937b4c4e826fa46b0ed6d9fb5ebb1c268cc14a7d4ba604e81251aea",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "README.md",
+      "kind": "report_or_docs",
+      "size_bytes": 7009,
+      "sha256": "0e8293ca4f76caec77dfcd7b07f2a39ef19b028e84cc76f717519bcb4001d987",
+      "review_use": "first-screen reviewer orientation"
+    },
+    {
+      "path": "docs/research_brief.md",
+      "kind": "report_or_docs",
+      "size_bytes": 546,
+      "sha256": "d334bb95800e374aa9971817d344649f69422f7d40cddbfe9bd8941f692b129e",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/top_tier_reviewer_packet.md",
+      "kind": "report_or_docs",
+      "size_bytes": 3535,
+      "sha256": "4c2a2a59b5e050ef14a943240f46ea287691137568db2beb6289310939a5a3d0",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/trace_schema.md",
+      "kind": "report_or_docs",
+      "size_bytes": 216,
+      "sha256": "d2ccb39e0745651e6f158ed71a6bf08635350dfeb8e6854e1bd6f0a6521050ef",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "docs/viewer.md",
+      "kind": "report_or_docs",
+      "size_bytes": 96,
+      "sha256": "12d9c57e7a7c930e4dc9ceb24ce17e7374ebeca62b1b1c630c19d9be8e7341be",
+      "review_use": "supporting artifact"
+    },
+    {
+      "path": "reports/agent_trace_observability_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 1625,
+      "sha256": "208cde8850fa2469f0281310d874d0346c7d1b55802936c9da23b0b9a8ac5e46",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/agent_trace_viewer_v2_research_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6004,
+      "sha256": "95aed97ecda43c5b93a9c0a7a2f7b08707599c338bbd99718858f6402b1fdae7",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/full_trace_viewer_report.md",
+      "kind": "report_or_docs",
+      "size_bytes": 833,
+      "sha256": "374613cf713bb7422bf92c346641b85cfddfc42dd317deb266ac2d61065eebc2",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/maturity_review.md",
+      "kind": "report_or_docs",
+      "size_bytes": 6562,
+      "sha256": "02af247af8d9475b9a692374289dc20d007848e86511ce8b06486c9f300d0f0a",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/real_trace_dataset_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 422,
+      "sha256": "44d98e1d2acfd90a29dad063692a87c1ee7be02c46b36962d4e2d0dba2fc3c5d",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "reports/trace_viewer_analysis.md",
+      "kind": "report_or_docs",
+      "size_bytes": 493,
+      "sha256": "cda7d1248f344581fd316db189932fb61b68f95a31e896aff49b864bb25a6eed",
+      "review_use": "written analysis and limitations"
+    },
+    {
+      "path": "scripts/analyze_failures.py",
+      "kind": "source_or_test",
+      "size_bytes": 1454,
+      "sha256": "73bc120f9b39bca7127b96cc30710529a0c277a888cbcf7ab1aaff7c40bd0b09",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 284,
+      "sha256": "0fd00697a41c45db310f463dd8f5967d3e749c657a6985c578b0ee43837dbd96",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/gpu_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 31340,
+      "sha256": "37b2eeade55e59da7b77ab557acc72a3f68fb4746220f136d7039d8281cc5a66",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/make_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 3469,
+      "sha256": "f67806488b727a69a782bc723859362850baf512a7b45c7ee04e3e598bedab62",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/preprocess_data.py",
+      "kind": "source_or_test",
+      "size_bytes": 223,
+      "sha256": "6295125239bb4992208c6613fae4c6af1325bb2e34c03b52cc653de13aed7fbf",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_experiment.py",
+      "kind": "source_or_test",
+      "size_bytes": 82,
+      "sha256": "20850eb44719474b29842436f5b147604f2ceaf5b8356cf6630b164da63d3792",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "scripts/run_matrix.py",
+      "kind": "source_or_test",
+      "size_bytes": 42694,
+      "sha256": "d2df022a79f9b8b69f1fa9fcf0c44d23c5cdf2cff67a582a86d6fcda4521e472",
+      "review_use": "reproduction entrypoint"
+    },
+    {
+      "path": "src/agent_trace_viewer/__init__.py",
+      "kind": "source_or_test",
+      "size_bytes": 27,
+      "sha256": "b469b53114b351f5ff7ee48dc745eeab0cc4adf6de6938a431d23ce67df1cdc0",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/dashboard_metrics.py",
+      "kind": "source_or_test",
+      "size_bytes": 2506,
+      "sha256": "e752d3aa9c8b5e6c97c2b814d0a3b3824d32f562925d2dd73cdaf2a82879f7b0",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/export.py",
+      "kind": "source_or_test",
+      "size_bytes": 524,
+      "sha256": "8c37c328c81c2ab2c7e463f33cd3c8cd4de38b734539242e70646ddff415cabb",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/filter_benchmark.py",
+      "kind": "source_or_test",
+      "size_bytes": 2507,
+      "sha256": "8851d045a06b544fe615b703180ee29084380919eb529b3bb1e33ff206140739",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/render.py",
+      "kind": "source_or_test",
+      "size_bytes": 885,
+      "sha256": "5238b2c88173c141e3cf7ed2da038d1b201a0f8e337e4cfc3a5c010d4dc22c5f",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/research_report.py",
+      "kind": "source_or_test",
+      "size_bytes": 1494,
+      "sha256": "15d9b0f3be044b3af354924bb672e75a2049c733919167ea4efeb30eb153a459",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/summary.py",
+      "kind": "source_or_test",
+      "size_bytes": 586,
+      "sha256": "2c280de6fab1132b34068b3cee8176826af716ee9fd7136c864d729253cbb551",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/timeline.py",
+      "kind": "source_or_test",
+      "size_bytes": 352,
+      "sha256": "699a05f779fb30ac181f813b8c70b9f02983111418f5a04ac525f43409502226",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "src/agent_trace_viewer/trace_store.py",
+      "kind": "source_or_test",
+      "size_bytes": 2518,
+      "sha256": "b44b0f5a9918e70fba9c730111da1b9473d56ac6b1d70043bfa4e608901fa986",
+      "review_use": "importable implementation"
+    },
+    {
+      "path": "tests/conftest.py",
+      "kind": "source_or_test",
+      "size_bytes": 123,
+      "sha256": "0002b5341b19e442565f99ea21759c27046cf13b6c7f9def582f0f383471a5f5",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_export.py",
+      "kind": "source_or_test",
+      "size_bytes": 260,
+      "sha256": "6eadb2b3549aab1bea0fd641d618ecb789684ede5f08c56e734dabe20faf0705",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_maturity_assets.py",
+      "kind": "source_or_test",
+      "size_bytes": 943,
+      "sha256": "7a761b468e10119ec84381455c6a513b52071fc037b8a5d3f839e42ed8bb8182",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_experiment_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1187,
+      "sha256": "7ada364b78f2151dbcd3ef56e72510e52451c83b3642efa5d33647539b28949e",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_real_trace_dataset.py",
+      "kind": "source_or_test",
+      "size_bytes": 419,
+      "sha256": "3e0c6b80fac51eeefd172e168b7d3fd60c176b20c9fce8f97f8c365d868be177",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_render.py",
+      "kind": "source_or_test",
+      "size_bytes": 258,
+      "sha256": "308b00ff506aaed0c02179d068f8f04c89c855a85995a93468283d2f66d81dca",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_summary.py",
+      "kind": "source_or_test",
+      "size_bytes": 264,
+      "sha256": "9efeaa4eb8293b88597d4795163719d74d282e1dd9bd54105be71a96b70f886f",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_timeline.py",
+      "kind": "source_or_test",
+      "size_bytes": 208,
+      "sha256": "86b5e2e0dc7929bb67e6ca7a42f2e430c0ef6ef428c6bce96fb0627076eeaeb2",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_top_tier_quality_gate.py",
+      "kind": "source_or_test",
+      "size_bytes": 1942,
+      "sha256": "ef892c5898daa21756e3ce7620a2d9d09023d7ecfc7f93b73cd086df91ff9859",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "tests/test_v2_research_artifacts.py",
+      "kind": "source_or_test",
+      "size_bytes": 1489,
+      "sha256": "c0b5d5fa3d6744af99ff7ee8d844df24f340518b59a010b68514ac0709be1d10",
+      "review_use": "validation surface"
+    },
+    {
+      "path": "reports/results/artifact_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 16306,
+      "sha256": "3b710f1222c3998f873c82f63c60af1b269b12f803fb4ae51d559da485237008",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/experiment_index.json",
+      "kind": "structured_result",
+      "size_bytes": 2151,
+      "sha256": "1f87b31880bb5cae6c3309710a45f8a3e5ce0bbc3e407a993260e20a8234ae34",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/reproducibility_manifest.json",
+      "kind": "structured_result",
+      "size_bytes": 1408,
+      "sha256": "3e374f68a4e62195cdbd8f8bcbce61dc0f049be93a84f332e68c890689d4694c",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/top_tier_quality_gate.json",
+      "kind": "structured_result",
+      "size_bytes": 637,
+      "sha256": "ed7a0103e1f7f007bf0749a9b1710b83247b07fd1f5d792cca0dd912e809a44b",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/trace_summary.json",
+      "kind": "structured_result",
+      "size_bytes": 323,
+      "sha256": "603a0663a2327db184f372cc3e8adc75e7e3413b00c44f89ecad492e95dc89f5",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_annotated_traces.json",
+      "kind": "structured_result",
+      "size_bytes": 853515,
+      "sha256": "4a20c477ab4d81a18c329599415e1618aa844b7f6fbb289b8ac848fc7a993eec",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_failure_analysis.json",
+      "kind": "structured_result",
+      "size_bytes": 12372,
+      "sha256": "50f32c8b187e23befd8843959b40784725eef7aab54cb02b213956412638cea6",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "reports/results/v2_trace_failures.json",
+      "kind": "structured_result",
+      "size_bytes": 45204,
+      "sha256": "963071b081c1206ab91e9cc25f6dacaba986efe3289f7b5ca726d36d7ad3b81b",
+      "review_use": "measured metrics, indexes, or audit tables"
+    },
+    {
+      "path": "notebooks/maturity_walkthrough.ipynb",
+      "kind": "walkthrough_or_notebook",
+      "size_bytes": 2174,
+      "sha256": "ca4bd1a8a952aba5bcb7f4e44f58d85403baed0fec1111bb980749f33802238b",
+      "review_use": "walkthrough or original notebook evidence"
+    }
+  ]
+}

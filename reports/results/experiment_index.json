@@ -36,6 +36,12 @@
       "experiment_id": "dashboard_export",
       "traces_rendered": 1500,
       "rows": 10000
+    },
+    {
+      "experiment_id": "top_tier_review_gate",
+      "artifact_count": 6,
+      "coverage_score": 1.0,
+      "review_value": "evidence-backed claims, artifact provenance, reproducibility manifest, and strict audit gate"
     }
   ],
   "artifacts": [
@@ -44,7 +50,13 @@
     "reports\\v2_trace_dashboard.html",
     "reports\\figures\\v2_latency_by_decision.png",
     "reports\\figures\\v2_policy_decisions.png",
-    "reports\\figures\\v2_risk_distribution.png"
+    "reports\\figures\\v2_risk_distribution.png",
+    "docs/top_tier_reviewer_packet.md",
+    "reports/results/claim_evidence_matrix.csv",
+    "reports/results/artifact_manifest.json",
+    "reports/results/reproducibility_manifest.json",
+    "reports/results/top_tier_quality_gate.json",
+    "reports/figures/top_tier_review_scores.png"
   ],
   "discussion": "Trace observability is useful only when the viewer carries model confidence, policy decisions, and failure reasons into the same timeline. V2 creates thousands of annotated traces and measures dashboard/filter behavior.",
   "total_runtime_seconds": 0.656
